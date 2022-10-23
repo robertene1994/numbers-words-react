@@ -1,0 +1,13 @@
+/****************************************/
+/***** CSS for Pagination component *****/
+/****************************************/
+
+.pagination-ellipsis,
+.pagine-item.active {
+    pointer-events: none;
+}
+
+.page-link:focus {
+    outline: none;
+    box-shadow: none;
+}

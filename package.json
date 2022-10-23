@@ -1,0 +1,27 @@
+{
+    "name": "numbers-words-react",
+    "version": "1.0.0",
+    "private": true,
+    "author": "Robert Stefanita Ene",
+    "scripts": {
+        "start": "meteor run",
+        "visualize": "meteor --production --extra-packages bundle-visualizer"
+    },
+    "dependencies": {
+        "@babel/runtime": "^7.19.0",
+        "bootstrap": "5.2.2",
+        "meteor-node-stubs": "^1.2.5",
+        "react": "^18.2.0",
+        "react-bootstrap": "2.5.0",
+        "react-dom": "^18.2.0",
+        "react-hook-form": "7.38.0",
+        "react-router": "^5.3.3",
+        "react-router-dom": "^5.3.3"
+    },
+    "meteor": {
+        "mainModule": {
+            "client": "client/main.jsx",
+            "server": "server/main.js"
+        }
+    }
+}
